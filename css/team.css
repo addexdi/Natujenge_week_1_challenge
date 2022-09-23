@@ -1,0 +1,27 @@
+body{
+   
+}
+
+.spoiler {
+}
+
+.inner {
+   
+}
+
+.inner p{
+    width: 200px;
+}
+
+.members{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: 1000px;
+}
+
+.outer{
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+}
