@@ -1,24 +1,29 @@
 body{
+    width: auto;
+    height: auto;
    background-color: bisque;
 }
 
 .members{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 30px;
-    width: 1000px;
-    height: 1500px;
-    background-color: aqua;
+    width: auto;
+    height: auto;
+    background-color: beige;
+    padding: 30px;
 }
 
 .spoiler {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: azure;
     align-content: center;
-    height: 500px;
-    width: 300px;
+    height: auto;
+    width: auto;
     border-radius: 50px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px grey;
 }
 
 
@@ -27,19 +32,77 @@ body{
 }
 
 .inner p{
-    width: 200px;
+    width: auto;
     text-align: center;
+    font-size: 15px;
+    font-weight: 530;
 }
 
 .inner h1{
-    width: 200px;
+    width: auto;
+    text-align: center;
+}
+
+.inner h3{
+    width: auto;
     text-align: center;
 }
 
 .outer{
     border-radius: 50px;
     width: 200px;
-    height: 200px;
+    height: auto;
+}
+
+/* social share */
+
+#social-img{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+    height: 30px;
+}
+
+.face{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    order: 0;
+    flex-grow: 0;
+}
+
+.insta{
+    width: 20px;
+    height: 20px;
+    order: 1;
+    flex-grow: 0;
+    border-radius: 50%;
+}
+ 
+.twiter{
+    width: 20px;
+    height: 20px;
+    order: 2;
+    flex-grow: 0;
+    border-radius: 50%;
+}
+
+.github{
+    width: 20px;
+    height: 20px;
+    order: 3;
+    flex-grow: 0;
+    border-radius: 50%;
+}
+
+.linked{
+    width: 20px;
+    height: 20px;
+    order: 4;
+    flex-grow: 0;
+    border-radius: 50%;
 }
 
 .footer {
@@ -56,4 +119,26 @@ body{
       text-decoration: none;
       color: black;
       cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+    .outer{
+        width: 170px;
+    }
+
+    .inner h1{
+        font-size: medium;
+    }
+
+    .inner h3{
+        font-size: small;
+    }
+
+    .inner p{
+        font-size: smaller;
+    }
+
+    #social-img{
+        display: none;
+    }
 }
