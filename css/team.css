@@ -1,24 +1,39 @@
-<<<<<<< HEAD
 body{
-   
-}
-
-.spoiler {
-}
-
-.inner {
-   
-}
-
-.inner p{
-    width: 200px;
+   background-color: bisque;
 }
 
 .members{
     display: flex;
     flex-direction: row;
     gap: 30px;
-    height: 1000px;
+    width: 1000px;
+    height: 1500px;
+    background-color: aqua;
+}
+
+.spoiler {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    align-content: center;
+    height: 500px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+
+.inner {
+    display: block;
+}
+
+.inner p{
+    width: 200px;
+    text-align: center;
+}
+
+.inner h1{
+    width: 200px;
+    text-align: center;
 }
 
 .outer{
@@ -26,6 +41,19 @@ body{
     width: 200px;
     height: 200px;
 }
-=======
 
->>>>>>> 2b8444d42593eba1b07fb2e61e879d7bf7596de3
+.footer {
+    display: block;
+    width:100%;
+    height: 70px;
+      border-top: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.footer a {
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+}
