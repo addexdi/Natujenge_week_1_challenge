@@ -1,11 +1,73 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bill.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Bill Manager</title>
-</head>
-<body>
-    <p>Bill</p>
-</body>
+  </head>
+  <body>
+    <header></header>
+
+    <div class="mainContainer">
+      <div class="tabs">
+        <a href="./index.html">Tax Calculator</a>
+        <a href="./bill.html">Bill Manager</a>
+      </div>
+      <div class="netSalary">
+        <p>Net Salary</p>
+        <div>
+          <span>KSHS</span>
+          <input type="number" id="netSalary" />
+        </div>
+      </div>
+      <div class="budget">
+        <div class="items">
+          
+              <div>
+                <p>Rent</p>
+                <p>Kshs <span>30000</span></p>
+              </div>
+              <div>
+                <p>Entertainment</p>
+                <p>Kshs <span>3000</span></p>
+              </div>
+              <div>
+                <p>Food</p>
+                <p>Kshs <span>10000</span></p>
+              </div>
+              <div>
+                <p>Shopping</p>
+                <p>Kshs <span>15000</span></p>
+              </div>
+           
+        </div>
+        <div class="addExpense">
+          <form action="">
+       
+            <input type="text" name="expense" id="expense" />
+
+  
+            <input type="number" name="amount" id="amount" />
+<br>
+            <input type="submit" id="submitBtn"/>
+          </form>
+        </div>
+        <div class="balance">
+          <div>
+            <p>Balance</p>
+            <p>Kshs <span>30000</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <span
+        >Powered By
+        <a href="https://www.meliora.co.ke/articles/nvrjgtnsgh5ophs6mm">Natujenge</a>
+      </span>
+  </footer>
+  </body>
 </html>
