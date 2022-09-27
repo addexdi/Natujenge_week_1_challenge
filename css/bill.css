@@ -3,8 +3,36 @@ body {
 }
 
 header {
-  height: 50px;
-  background-color: blueviolet;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+}
+
+header img {
+  height: 40px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  padding: 15px;
+  transition: 0.5s ease-in-out all;
+}
+
+header a:hover {
+  background-color: grey;
+  color: #fff;
+  font-size: 20px;
+}
+
+.links {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 footer {
@@ -18,26 +46,32 @@ footer {
   justify-content: center;
   flex-direction: column;
   width: 80%;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .tabs {
   padding: 20px;
+  border-bottom: 1px solid grey;
 }
 
 .tabs a {
   text-decoration: none;
   margin: 18px;
   color: black;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out all;
 }
 
-.tabs a:active {
+.tabs a:active,
+.tabs a:hover {
   background: grey;
 }
 
 .netSalary {
   display: flex;
   flex-direction: column;
+  margin: 20px;
 }
 
 .netSalary p {
@@ -47,23 +81,43 @@ footer {
 
 .netSalary div {
   border: 1px solid grey;
-  background: grey;
+  background: whitesmoke;
   padding: 4px;
 }
 
-.budget{
-    padding: 10px;
-    margin-top: 20px;
+.budget {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: whitesmoke;
+  width: 400px;
 }
 
-.items div, .balance div {
+#form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+#form input {
+  margin: 5px;
+  /* margin-right: 10px; */
+}
+
+.balance {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-top: 1px solid grey;
+}
+
+.items div,
+.balance div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-
 #submitBtn {
-    background: #000;
-    color: #fff;
+  background: #000;
+  color: #fff;
 }
