@@ -35,7 +35,7 @@ function displayAll() {
   let newItem = document.createElement("div");
 
   array.forEach((data) => {
-    let x = `<p>${data.exp}</p>` + `<p>Kshs <span>${data.val}</span></p>`;
+    let x = `<p>${data.exp.toUpperCase()}</p>` + `<p>Kshs <span>${data.val}</span></p>`;
     newItem.innerHTML = x;
     itemDiv.appendChild(newItem);
   });

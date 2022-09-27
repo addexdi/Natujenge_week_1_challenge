@@ -1,44 +1,6 @@
-body {
-  height: 100vh;
-}
 
-header {
-  display: flex;
-  background-color: #fff;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  border-bottom: 1px solid grey;
-}
 
-header img {
-  height: 40px;
-}
 
-header a {
-  text-decoration: none;
-  color: black;
-  font-size: 15px;
-  padding: 15px;
-  transition: 0.5s ease-in-out all;
-}
-
-header a:hover {
-  background-color: grey;
-  color: #fff;
-  font-size: 20px;
-}
-
-.links {
-  width: 20%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-footer {
-  height: 50px;
-  background-color: blueviolet;
-}
 
 .mainContainer {
   display: flex;
