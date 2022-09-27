@@ -1,4 +1,4 @@
-body {
+/* body {
   height: 100vh;
   min-width: 450px;
 }
@@ -28,14 +28,42 @@ header a:hover {
   background-color: grey;
   color: #fff;
   font-size: 20px;
-}
+} */
 
-.links {
+/* .links {
   width: 20%;
   display: flex;
   justify-content: space-evenly;
-}
+} */
+.navbar {
+  height: 120px;
+  background:#527DA4;
 
+}
+.nav{
+  margin-top: 20px;
+  text-align: center;
+  
+}
+li{
+  color: aliceblue;
+}
+.nav li{
+  list-style: none;
+  padding: 5px;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 20px;
+
+}
+.nav li:hover {
+  background-color: #1fe073;
+  border-radius: 10px;
+}
+.nav-items{
+  display:flex;
+  justify-content: center;
+}
 .footer {
   position: fixed;
   bottom:0;
