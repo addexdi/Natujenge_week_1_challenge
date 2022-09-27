@@ -4,13 +4,13 @@
 ### (Natujenge Overcome your Fear Bootcamp)
  
 ## Table of Contents
-* [Overall Description](https://github.com/chanaiagwata/Portfolio-Chanai/edit/master/README.md#overall-project-description)
+* [Overall Description](https://github.com/addexdi/Natujenge_week_1_challenge#overall-project-description)
 
-* [Setup Instructions](https://github.com/chanaiagwata/Portfolio-Chanai/edit/master/README.md#setup-instructions)
+* [Setup Instructions](https://github.com/addexdi/Natujenge_week_1_challenge#setup-instructions)
 
-* [License](https://github.com/chanaiagwata/Portfolio-Chanai/edit/master/README.md#license)
+* [License](https://github.com/addexdi/Natujenge_week_1_challenge#license)
 
-* [Author's Info](https://github.com/chanaiagwata/Portfolio-Chanai/edit/master/README.md#authors-info)
+* [Author's Info](https://github.com/addexdi/Natujenge_week_1_challenge#authors-info)
 
 ## Overall Project Description
 <p>This is a tax calculator that allows the users to calculate their net and manage their bills</p>
