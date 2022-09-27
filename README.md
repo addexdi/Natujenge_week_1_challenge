@@ -1,6 +1,6 @@
 
 # Natujenge_week_1_challenge
-## Week 9
+## Group 9
 ### (Natujenge Overcome your Fear Bootcamp)
  
 ## Table of Contents
