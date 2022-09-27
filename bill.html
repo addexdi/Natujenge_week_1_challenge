@@ -8,7 +8,20 @@
     <title>Bill Manager</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <a href="index.html">
+        <img
+          src="./img/logo/logo-wordmark.svg"
+          alt="Natujenge Logo"
+        />
+      </a>
+      <div class="links">
+        <a href="https://www.meliora.co.ke/articles/nvrjgtnsgh5ophs6mm"
+          >About</a
+        >
+        <a href="./team.html">Teams</a>
+      </div>
+    </header>
 
     <div class="mainContainer">
       <div class="tabs">
@@ -23,41 +36,23 @@
         </div>
       </div>
       <div class="budget">
-        <div class="items">
-          
-              <div>
-                <p>Rent</p>
-                <p>Kshs <span>30000</span></p>
-              </div>
-              <div>
-                <p>Entertainment</p>
-                <p>Kshs <span>3000</span></p>
-              </div>
-              <div>
-                <p>Food</p>
-                <p>Kshs <span>10000</span></p>
-              </div>
-              <div>
-                <p>Shopping</p>
-                <p>Kshs <span>15000</span></p>
-              </div>
-           
+        <div class="items" id="items">
         </div>
+
         <div class="addExpense">
-          <form action="">
-       
+          <form id="form">
             <input type="text" name="expense" id="expense" />
 
-  
             <input type="number" name="amount" id="amount" />
-<br>
-            <input type="submit" id="submitBtn"/>
+            <br />
+            <input type="submit" id="submitBtn" value="Add Expense" />
           </form>
         </div>
+
         <div class="balance">
           <div>
             <p>Balance</p>
-            <p>Kshs <span>30000</span></p>
+            <p>Kshs <span id="balance">0</span></p>
           </div>
         </div>
       </div>
@@ -66,8 +61,12 @@
     <footer class="footer">
       <span
         >Powered By
-        <a href="https://www.meliora.co.ke/articles/nvrjgtnsgh5ophs6mm">Natujenge</a>
+        <a href="https://www.meliora.co.ke/articles/nvrjgtnsgh5ophs6mm"
+          >Natujenge</a
+        >
       </span>
-  </footer>
+    </footer>
+
+    <script src="./js/bill.js"></script>
   </body>
 </html>
